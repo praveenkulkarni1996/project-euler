@@ -4,9 +4,10 @@ This is a repository of my solved project euler codes / answers.
 
 This is the answers list
 
-001 -> 233168   
-029 -> 9183 
-036 -> 872187     
+001 -> 233168     
+019 -> 171   
+029 -> 9183    
+036 -> 872187        
 052 -> 142857   
 055 -> 249   
 056 -> 972    
@@ -24,3 +25,4 @@ This is the answers list
 191 -> 1918080160   
 206 -> 1389019170   
 301 -> 2178309    
+
