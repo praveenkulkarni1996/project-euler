@@ -1,8 +1,1 @@
-nmax = 0
-for a in range(1, 101):
-    for b in range(1, 101):
-        x = a ** b;
-        n = 0
-        for c in str(x): n += int(c)
-        if n > nmax : nmax = n
-print nmax
+print max(sum(int(z) for z in str(num)) for num in (a**b for a in xrange(1, 101) for b in xrange(1, 101))) 
