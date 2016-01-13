@@ -5,6 +5,7 @@ This is a repository of my solved project euler codes / answers.
 This is the answers list
 
 001 -> 233168     
+004 -> 906609  
 019 -> 171   
 026 -> 983    
 029 -> 9183    
