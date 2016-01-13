@@ -1,5 +1,1 @@
-N = 1000 - 1
-a = N / 3
-b = N / 5
-c = N / 15
-print ((a * (a + 1) * 3) / 2) + ((b * (b + 1) * 5) / 2) - ((c * (c + 1) * 15) / 2)
+print sum([x for x in range(0, 1000) if x % 3 == 0 or x % 5 == 0 and x % 15 != 0])
