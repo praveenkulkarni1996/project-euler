@@ -21,7 +21,8 @@ inline void build() {
         for(int j = 0; j < n; ++j) {
             if(k <= 55) {
                 a[i][j] = (100003 - 200003 * k + 300007 * k * k * k ) % 1000000 - 500000;
-            } else {
+            } 
+            else {
                 int *ptr = &a[i][j];
                 ptr[0] = (ptr[-24] + ptr[-55] + 1000000) % 1000000 - 500000;
             }
@@ -44,7 +45,7 @@ inline void solver() {
 }
 int main() {
     clock_t start = clock();
-    solver();
+    solver();   //techinincally the solver is incomplete, it does not check diagonals
     clock_t end = clock();
     printf("time = %f\n", double(end - start) / CLOCKS_PER_SEC );
 }
