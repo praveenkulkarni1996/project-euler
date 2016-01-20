@@ -3,9 +3,20 @@ B = "821480865132823066470938446095505822317253594081284811174502841027019385211
 X = [(127 + 19*n)*(7**n) for n in xrange(0, 18)]
 fib = [100, 100]
 answer = ""
+
 for i in xrange(2, 80):
     fib.append(fib[-1] + fib[-2]);
 
+""" g(n, p) := returns the pth digit in the nth fibonacci number
+    It can be recursively defined
+    g(n, p) = A[p - 1]                  if n == 0
+            = B[p - 1]                  if n == 1
+            = g(n - 2, p)               if p <= fib[n - 2]
+            = g(n - 1, p - fib[n - 2])  otherwise
+
+    The question asks us to calculate the concatenation of g(x, y) 
+    for y in list X[] and smallest valid x. 
+"""
 def g(n, p):
     if(n == 0): return A[p - 1]
     elif(n == 1): return B[p - 1]
