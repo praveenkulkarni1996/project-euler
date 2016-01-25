@@ -90,3 +90,9 @@ This is the answers list
 381 -> 139602943319822  
 500 -> 35407281   
 512 -> 50660591862310323  
+
+This code is provided for reference only. You need prior written permission
+to do any of the following: republish the code verbatim, publish the code
+with modifications, incorporate parts of the code into your own work, etc.
+
+Copyright © 2015 Praveen Kulkarni. All rights reserved. No warranty.
