@@ -1,8 +1,7 @@
 #include <iostream>
 #include <cstdio>
 #include <ctime>
-const int n = 250250;
-const int mod = 250;
+const int n = 250250; const int mod = 250;
 const int m = 28203715;
 const unsigned long long md = (unsigned long long) 1e16;
 
