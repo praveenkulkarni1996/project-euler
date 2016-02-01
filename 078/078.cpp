@@ -18,8 +18,7 @@ inline void solver() {
         p[i] = 0;
         int prod = 1;
         for(int j = 1; ; ++j) {
-            int x = penta(j);
-            int y = penta(-j);
+            int x = penta(j), y = penta(-j);
             if(x > i and y > i) break;
             p[i] += prod * (((get_p(i - x) + get_p(i - y)))) % n;
             prod *= -1;
